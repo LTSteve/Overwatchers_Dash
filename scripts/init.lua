@@ -128,7 +128,7 @@ end
 return {
 	id = "OverwatchersDash",
 	name = "Dash",
-	version = "1.0b",
+	version = "1.1b",
 	requirements = {"kf_ModUtils"},--Not a list of mods needed for our mod to function, but rather the mods that we need to load before ours to maintain compability
 	icon = "img/icons/mod_icon.png",
 	init = init,
