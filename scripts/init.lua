@@ -102,18 +102,6 @@ local function init(self)
 		name = Dash_Prime_Thrusters.Name,
 		desc = "Adds PR1-MA thrusters to the store."
 	})
---[[
-	shop:addWeapon({
-		id = "ZeroDawn_Brute_ForceLoader",
-		name = ZeroDawn_Brute_ForceLoader.Name,
-		desc = "Adds Force Loader to the store."
-	})
-	shop:addWeapon({
-		id = "ZeroDawn_Science_NavRelay",
-		name = ZeroDawn_Science_NavRelay.Name,
-		desc = "Adds Nav Relay to the store."
-	})
-	]]
 end
 
 local function load(self, options, version)
