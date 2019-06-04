@@ -293,7 +293,7 @@ Dash_Brute_MechDash = Skill:new{
   PowerCost = 1,
   Upgrades = 2,
   Range = 1,
-  UpgradeList = { "+1 Damage",  "+Range, -Dmg"  },
+  UpgradeList = { "+1 Damage",  "+1 Range"  },
   UpgradeCost = { 2,3 },
   TipImage = {
     Unit = Point(1,3),
@@ -534,7 +534,6 @@ Dash_Brute_MechDash_A = Dash_Brute_MechDash:new{
 Dash_Brute_MechDash_B = Dash_Brute_MechDash:new{
   UpgradeDescription = "Change dashable ranges.",
   Range = 2,
-  Damage = 1,
   TipImage = {
     Unit = Point(1,3),
     Enemy = Point(1,1),
@@ -545,7 +544,7 @@ Dash_Brute_MechDash_B = Dash_Brute_MechDash:new{
 }
 
 Dash_Brute_MechDash_AB = Dash_Brute_MechDash:new{
-  Damage = 2,
+  Damage = 3,
   Range = 2,
   TipImage = {
     Unit = Point(1,3),
